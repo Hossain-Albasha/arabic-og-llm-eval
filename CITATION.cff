@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+title: "Arabic / Oil & Gas LLM Evaluation Benchmark"
+message: "If you use this benchmark in research or model releases, please cite as below."
+type: dataset
+authors:
+  - family-names: Albasha
+    given-names: Hossain
+    email: Albasha.Hossain@gmail.com
+    affiliation: Independent
+repository-code: "https://github.com/Hossain-Albasha/arabic-og-llm-eval"
+abstract: >-
+  A small, opinionated evaluation benchmark and harness for testing how well
+  large language models handle bilingual Arabic / English Oil & Gas technical
+  content. Targets failure modes that surface in production AR/EN industrial
+  deployments (terminology recall, code-switching, diacritization sensitivity,
+  hallucinated proper nouns) which standard benchmarks do not probe.
+keywords:
+  - llm-evaluation
+  - benchmark
+  - arabic-nlp
+  - bilingual
+  - oil-and-gas
+  - industrial-ai
+license: MIT
+license-url: "https://github.com/Hossain-Albasha/arabic-og-llm-eval/blob/main/LICENSE"
+version: "0.1.0"
+date-released: "2026-05-03"
+preferred-citation:
+  type: software
+  title: "Arabic / Oil & Gas LLM Evaluation Benchmark"
+  authors:
+    - family-names: Albasha
+      given-names: Hossain
+  year: 2026
+  url: "https://github.com/Hossain-Albasha/arabic-og-llm-eval"
+  version: "0.1.0"
+  notes: "Benchmark items are licensed CC-BY-4.0; harness code is MIT."
